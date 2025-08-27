@@ -92,6 +92,7 @@ const CONFIG = {
     'Angular',
     'Node.js',
     'Express.js',
+    'MongoDB',
     'Java',
     'Python',
     'Django',
