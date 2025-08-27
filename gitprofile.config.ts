@@ -18,9 +18,9 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 4, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -38,7 +38,7 @@ const CONFIG = {
           description:
             ' URL Shortener App built with MERN stack (MongoDB, Express, React, Node.js).⚡ Uses TanStack Query for efficient server state management and caching 🛣️ Implements TanStack Router for smooth, declarative routing in React. 🔐 JWT Authentication for secure user login, signup, and protected routes. ✨ Features: custom short URLs, user-specific link management, and analytics-ready structure.',
           imageUrl:
-            'https://github.com/Vidhi-0603/URLShortener/blob/main/Screenshot%202025-08-26%20171548.png',
+            'URLShortener.png',
           link: 'https://github.com/Vidhi-0603/URLShortener',
         },
         {
@@ -46,7 +46,7 @@ const CONFIG = {
           description:
             'ShopseeApp is a modern e-commerce web application built with Angular and Firebase. It features Firebase Authentication for secure login, Realtime Database for product and cart management, Firebase Auth REST API integration, category-based filtering, wishlist, and shopping cart functionality — offering a seamless online shopping experience.',
           imageUrl:
-            'https://github.com/Vidhi-0603/ShopseeApp/blob/master/Screenshot%202025-08-15%20220346.png',
+            'shopsee.png',
           link: 'https://github.com/Vidhi-0603/ShopseeApp',
         },
         {
@@ -54,13 +54,13 @@ const CONFIG = {
           description:
             'World Wide Land is a real estate web application built with Django and SQLite3. It provides property listings, user authentication, and a structured database to manage buyers, sellers, and property details efficiently. The platform enables users to explore real estate options with a reliable and scalable backend powered by Django ORM.',
           imageUrl:
-            '/Screenshot 2025-08-27 122526.png',
+            '/wwl.png',
           link: 'https://github.com/Vidhi-0603/wwl',
         },
       ],
     },
   },
-  seo: { title: 'Portfolio of Vidhilika Gupta', description: '', imageURL: '' },
+  seo: { title: 'Portfolio-Vidhilika Gupta', description: '', imageURL: '' },
   social: {
     linkedin: 'https://www.linkedin.com/in/vidhilika-gupta-a9a213214/',
     x: '',
