@@ -54,7 +54,7 @@ const CONFIG = {
           description:
             'World Wide Land is a real estate web application built with Django and SQLite3. It provides property listings, user authentication, and a structured database to manage buyers, sellers, and property details efficiently. The platform enables users to explore real estate options with a reliable and scalable backend powered by Django ORM.',
           imageUrl:
-            'https://github.com/Vidhi-0603/wwl/blob/main/Screenshot%202025-08-27%20122526.png',
+            '/Screenshot 2025-08-27 122526.png',
           link: 'https://github.com/Vidhi-0603/wwl',
         },
       ],
